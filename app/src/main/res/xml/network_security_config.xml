@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The site runs on a LAN IP that changes, so the rules apply to every host:
+     - plain HTTP is allowed (site without its mkcert certificate);
+     - HTTPS trusts the system CAs, the CAs installed on the phone (the demo phones have the
+       mkcert CA) and the mkcert CA of the machine that built the APK (res/raw, public cert only,
+       copied from TPSArena_Site/certs/tps-arena-ca.crt). -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+            <certificates src="@raw/tps_arena_ca" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

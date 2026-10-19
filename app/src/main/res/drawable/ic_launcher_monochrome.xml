@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed icon (Android 13+): same crosshair, one color. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <path
+        android:pathData="M256,151a105,105 0 1,0 0.01,0zM256,112V184M256,328V400M112,256H184M328,256H400"
+        android:strokeWidth="22"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M234,256a22,22 0 1,0 44,0a22,22 0 1,0 -44,0z" />
+</vector>

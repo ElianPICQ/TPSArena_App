@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TPS Arena</string>
+    <string name="channel_messages">Messages</string>
+    <string name="channel_messages_description">Messages de tes amis.</string>
+    <string name="channel_social">Amis et progression</string>
+    <string name="channel_social_description">Demandes d’ami, nouveaux amis, niveaux et succès.</string>
+    <string name="channel_service">Connexion au chat</string>
+    <string name="channel_service_description">Garde le chat ouvert en arrière-plan.</string>
+    <string name="service_title">Chat connecté</string>
+    <string name="service_text">Tu reçois les messages de tes amis.</string>
+</resources>
